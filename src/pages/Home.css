@@ -1,0 +1,341 @@
+body, html { 
+  margin: 0; 
+  padding: 0; 
+  height: 100%; 
+  overflow-x: hidden; 
+}
+
+.home-page { 
+  position: relative; 
+  width: 100%; 
+}
+
+.background-video-wrapper { 
+  position: relative; 
+  width: 100%; 
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+.background-video { 
+  width: 100%; 
+  height: 100%; 
+  border: none; 
+  pointer-events: none; 
+  filter: brightness(60%);
+}
+
+.video-overlay { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-start; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}
+
+.video-content { 
+  max-width: 600px; 
+}
+
+.main-heading {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: #fff;
+}
+
+ .why-ckyc-section, .kyc-guidelines-section { 
+  
+  padding: 60px 20px; 
+  text-align: center; 
+  background-color: #f9f9f9; 
+
+  width: 100%; 
+}
+
+.why-ckyc-section { 
+  background-color: white; 
+  
+}
+
+.kyc-guidelines-section { 
+  background-color: white; 
+
+}
+
+ .why-ckyc-features, .guidelines { 
+  margin-top: 20px; 
+  list-style-type: none; 
+  padding: 0; 
+}
+
+ .why-ckyc-features p, .guidelines li { 
+  margin: 5px 0; 
+}
+
+.demo-button, .live-demo-button { 
+  display: inline-flex; 
+  align-items: center; 
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 50px; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.demo-button:hover, .live-demo-button:hover { 
+  background-color: #0056b3; 
+}
+
+.demo-button i, .live-demo-button i { 
+  margin-left: 10px; 
+  transition: transform 0.3s ease; 
+}
+
+.demo-button:hover i, .live-demo-button:hover i { 
+  transform: translateX(5px); 
+}
+
+footer { 
+  width: 100%; 
+}
+
+.kyc-guidelines-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.guidelines-text {
+  flex: 1;
+}
+
+.guidelines-image {
+  flex: 1;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.products-section {
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.products-title {
+  margin-bottom: 20px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  background-color: #f9f9f9;
+
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  flex: 1 1 30%;
+  box-sizing: border-box;
+  max-width: 300px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.learn-more-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.for-every-industry-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+.for-every-industry-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.for-every-industry-section p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.industry-examples {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.industry {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  gap: 20px;
+}
+
+.industry img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.industry-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.industry-content h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.industry-content p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+
+.docpass-section {
+  /* background: #f8f8f8; */
+  background-color: #f9f9f9;
+  /* background-color:white; */
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.docpass-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.docpass-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.docpass-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.docpass-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.docpass-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.docpass-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.docpass-features {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.live-demo-button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.live-demo-button:hover {
+  background-color: #0056b3;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

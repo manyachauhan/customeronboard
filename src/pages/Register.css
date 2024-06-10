@@ -1,0 +1,65 @@
+.register-container {
+    padding-top: 50px;
+
+  margin-top: 80px; 
+
+  }
+  
+  .register-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .register-header .breadcrumb {
+    font-size: 1rem;
+    
+  }
+  
+  .register-header .breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .register-header .breadcrumb span {
+    color: #6c757d;
+    text-align: center;
+  }
+  
+  .register-box {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .register-box p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

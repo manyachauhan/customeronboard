@@ -1,0 +1,126 @@
+
+
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.id-verification-page {
+    padding: 0 20px;
+}
+
+.id-verification-header {
+    text-align: center;
+    padding: 40px 0;
+    /* background: rgb(212, 196, 211); */
+    background: white;
+    /* color: #fff; */
+    color: black;
+}
+
+.id-verification-header h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.id-verification-header p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.id-verification-header .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.demo-button, .trial-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.demo-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.trial-button {
+    background-color: #00cc66;
+    color: white;
+}
+
+.demo-button:hover {
+    background-color: #e71009;
+}
+
+.trial-button:hover {
+    background-color: #00b359;
+}
+
+.id-verification-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.id-verification-section img {
+    max-width: 45%;
+    border-radius: 10px;
+}
+
+.id-verification-section .text-content {
+    max-width: 45%;
+}
+
+.id-verification-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.id-verification-section p,
+.id-verification-section ul {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.id-verification-section ul {
+    padding-left: 20px;
+}
+
+.id-verification-section ul li {
+    margin-bottom: 10px;
+}
+
+.id-verification-overview {
+    flex-direction: row;
+}
+
+.id-verification-features {
+    flex-direction: row;
+}
+
+.id-verification-benefits {
+    flex-direction: row-reverse;
+}
+
+.id-verification-section img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
